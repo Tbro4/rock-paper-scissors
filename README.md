@@ -49,3 +49,5 @@ If not:
 <br>
 
 ![](./assets/screenShots/Thanks!.png)
+
+[TRY IT OUT HERE!](https://tbro4.github.io/rock-paper-scissors/)
