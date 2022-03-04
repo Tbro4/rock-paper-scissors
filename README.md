@@ -1,19 +1,51 @@
-# rock-paper-scissors
+# ROCK, PAPER, SCISSORS!
 
-declare variables:
-Wins
-Loses
-Ties
+This is a simple game of "Rock, Paper, Scissors" played using prompt(), confirm(), and alert() methods, as well as else if statements.
+<br>
 
-Prompt asks for input R, P, or S
-store in memory in a variable userChoice
+The user is prompted to input "R", "P", or "S".
+<br>
 
-alert tells user what computer chose (R P S)
-math.floor and math.random are used to pick at random (from an array)
-also stored in a variable compChoice
+![](./assets/screenShots/1stPrompt.png)
 
-alert tells user who won and lists an updated total of wins losses and ties
-to tell who won we need to compare user choice vs computer choice (if else)
-will use ++ operator to add to W,L,T
+<br>
 
-prompt asks user if they would like to play again (if else)
+- Lowercase entries are automatically changed to uppercase using toUppercase()
+- Invalid entries result in an alert to enter a valid option
+  <br>
+
+  ![](./assets/screenShots/EnterValidOp.png)
+
+    <br>
+
+The computer makes a choice (in the background) using math.floor and math.random
+
+The user is then shown the computer's choice and told if they have won or lost
+
+<br>
+
+![](./assets/screenShots/TheCompChose.png)
+
+<br>
+
+User is then shown a scoreboard of Wins, Losses, and Ties.
+
+<br>
+
+![](./assets/screenShots/Scoreboard.png)
+
+<br>
+
+User is asked if they would like to play again with a confirm()
+
+<br>
+
+![](./assets/screenShots/Playagain?.png)
+
+<br>
+
+If not:
+
+<br>
+
+![](./assets/screenShots/Thanks!.png)
